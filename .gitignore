@@ -1,0 +1,13 @@
+# Maven build files
+target/
+
+# Compiled Java files
+*.class
+
+# macOS system files
+.DS_Store
+
+# IDE files
+.idea/
+.vscode/
+*.iml
