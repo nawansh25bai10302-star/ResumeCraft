@@ -305,9 +305,9 @@ Possible future improvements include:
 
 ## Author
 
-**[Your Name]**
+**NAWANSH DWIVEDI**
 
-**[Registration Number]**
+**25BAI10302**
 
 **VIT**
 
