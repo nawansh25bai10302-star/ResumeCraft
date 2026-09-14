@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+<style>
+text{font-family:Arial,sans-serif;fill:#1f2937}
+.title{font-size:30px;font-weight:700}.layer{font-size:14px;font-weight:700;fill:#6b7280}
+.box{stroke:#2c3e50;stroke-width:2;rx:10;ry:10}.small{font-size:14px}.sub{font-size:11px}
+.line{stroke:#374151;stroke-width:2;fill:none;marker-end:url(#arrow)}
+</style>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L10,3 L0,6 z" fill="#374151"/></marker></defs>
+<text x="700" y="45" text-anchor="middle" class="title">ResumeCraft System Architecture</text>
+<text x="70" y="125" class="layer">APPLICATION</text>
+<text x="70" y="240" class="layer">CORE MODEL</text>
+<text x="70" y="425" class="layer">SERVICE LAYER</text>
+<text x="70" y="635" class="layer">OUTPUT</text>
+<rect x="380" y="100" width="220" height="70" class="box" fill="#DDEBF7"/>
+<text x="490.0" y="130" text-anchor="middle" font-weight="700">Main</text>
+<text x="490.0" y="150" text-anchor="middle" class="sub">Application entry point</text><rect x="680" y="100" width="220" height="70" class="box" fill="#DDEBF7"/>
+<text x="790.0" y="130" text-anchor="middle" font-weight="700">Resume</text>
+<text x="790.0" y="150" text-anchor="middle" class="sub">Core resume model</text><rect x="230" y="245" width="190" height="70" class="box" fill="#E8F5E9"/>
+<text x="325.0" y="275" text-anchor="middle" font-weight="700">PersonalInfo</text>
+<text x="325.0" y="295" text-anchor="middle" class="sub">Personal details</text><rect x="450" y="245" width="190" height="70" class="box" fill="#E8F5E9"/>
+<text x="545.0" y="275" text-anchor="middle" font-weight="700">Education</text>
+<text x="545.0" y="295" text-anchor="middle" class="sub">Education details</text><rect x="670" y="245" width="190" height="70" class="box" fill="#E8F5E9"/>
+<text x="765.0" y="275" text-anchor="middle" font-weight="700">Experience</text>
+<text x="765.0" y="295" text-anchor="middle" class="sub">Work experience</text><rect x="890" y="245" width="190" height="70" class="box" fill="#E8F5E9"/>
+<text x="985.0" y="275" text-anchor="middle" font-weight="700">Project</text>
+<text x="985.0" y="295" text-anchor="middle" class="sub">Project details</text><rect x="1110" y="245" width="150" height="70" class="box" fill="#E8F5E9"/>
+<text x="1185.0" y="275" text-anchor="middle" font-weight="700">Skill</text>
+<text x="1185.0" y="295" text-anchor="middle" class="sub">Skills information</text><rect x="260" y="445" width="190" height="75" class="box" fill="#FFF3CD"/>
+<text x="355.0" y="475" text-anchor="middle" font-weight="700">ResumeService</text>
+<text x="355.0" y="495" text-anchor="middle" class="sub">Resume management</text><rect x="500" y="445" width="190" height="75" class="box" fill="#FFF3CD"/>
+<text x="595.0" y="475" text-anchor="middle" font-weight="700">ResumeFormatter</text>
+<text x="595.0" y="495" text-anchor="middle" class="sub">Resume formatting</text><rect x="740" y="445" width="190" height="75" class="box" fill="#FFF3CD"/>
+<text x="835.0" y="475" text-anchor="middle" font-weight="700">ResumeTemplate</text>
+<text x="835.0" y="495" text-anchor="middle" class="sub">Resume templates</text><rect x="500" y="545" width="210" height="75" class="box" fill="#FCE4EC"/>
+<text x="605.0" y="575" text-anchor="middle" font-weight="700">ResumeHtmlFormatter</text>
+<text x="605.0" y="595" text-anchor="middle" class="sub">HTML formatting</text><rect x="760" y="545" width="190" height="75" class="box" fill="#FCE4EC"/>
+<text x="855.0" y="575" text-anchor="middle" font-weight="700">ResumeFileWriter</text>
+<text x="855.0" y="595" text-anchor="middle" class="sub">File export</text><rect x="450" y="675" width="190" height="70" class="box" fill="#F3F4F6"/>
+<text x="545.0" y="705" text-anchor="middle" font-weight="700">TXT Output</text>
+<text x="545.0" y="725" text-anchor="middle" class="sub">resume.txt</text><rect x="690" y="675" width="190" height="70" class="box" fill="#F3F4F6"/>
+<text x="785.0" y="705" text-anchor="middle" font-weight="700">HTML Output</text>
+<text x="785.0" y="725" text-anchor="middle" class="sub">resume.html</text><rect x="930" y="675" width="230" height="70" class="box" fill="#F3F4F6"/>
+<text x="1045.0" y="705" text-anchor="middle" font-weight="700">Modern HTML Output</text>
+<text x="1045.0" y="725" text-anchor="middle" class="sub">resume-modern.html</text><path d="M600 135 L680 135" class="line"/><path d="M790 170 L325 245" class="line"/><path d="M790 170 L545 245" class="line"/><path d="M790 170 L765 245" class="line"/><path d="M790 170 L985 245" class="line"/><path d="M790 170 L1185 245" class="line"/><path d="M790 170 L355 445" class="line"/><path d="M450 482 L500 482" class="line"/><path d="M690 482 L740 482" class="line"/><path d="M595 520 L605 545" class="line"/><path d="M690 482 L855 545" class="line"/><path d="M605 620 L545 675" class="line"/><path d="M855 620 L785 675" class="line"/><path d="M855 620 L1045 675" class="line"/><rect x="70" y="785" width="1090" height="80" rx="10" fill="#fafafa" stroke="#d1d5db"/>
+<text x="90" y="810" font-size="13" font-weight="700">Project structure represented</text>
+<text x="90" y="832" font-size="12">model/: PersonalInfo, Education, Experience, Project, Skill</text>
+<text x="90" y="850" font-size="12">services/: ResumeService, ResumeFormatter, ResumeTemplate, ResumeHtmlFormatter, ResumeFileWriter</text>
+</svg>
